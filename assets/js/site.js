@@ -5,7 +5,7 @@ let smallImgTwo = document.getElementById('smallImgTwo');
 let smallImgThree = document.getElementById('smallImgThree');
 let smallImgFour = document.getElementById('smallImgFour');
 
-smallImgOne.addEventListener('click', function (envet){
+smallImgOne.addEventListener('click',  (e) => {
 
    let bigImageUrl = mainImage.src
    let smallImgUrl = smallImgOne.src
@@ -15,7 +15,7 @@ smallImgOne.addEventListener('click', function (envet){
    smallImgOne.src = bigImageUrl
     
 })
-smallImgTwo.addEventListener('click', function (envet){
+smallImgTwo.addEventListener('click', (e) => {
 
     let bigImageUrl = mainImage.src
     let smallImgUrl = smallImgTwo.src
@@ -25,7 +25,7 @@ smallImgTwo.addEventListener('click', function (envet){
     smallImgTwo.src = bigImageUrl
      
  })
- smallImgThree.addEventListener('click', function (envet){
+ smallImgThree.addEventListener('click', (e) => {
 
     let bigImageUrl = mainImage.src
     let smallImgUrl = smallImgThree.src
@@ -35,7 +35,7 @@ smallImgTwo.addEventListener('click', function (envet){
     smallImgThree.src = bigImageUrl
      
  })
- smallImgFour.addEventListener('click', function (envet){
+ smallImgFour.addEventListener('click', (e) => {
 
     let bigImageUrl = mainImage.src
     let smallImgUrl = smallImgFour.src
